@@ -455,6 +455,16 @@ blockquote{
     color: #777;
 }
 
+.note .admonition-title:before,
+.hint .admonition-title:before,
+.tip  .admonition-title:before {
+    content: "\f129";
+    font-family: FontAwesome;
+    color: #777;
+    padding-right: 0.5em;
+    font-size: 18px;
+}
+
 .warning, .caution, .important, .attention {
     border-left-color: #f0ad4e;
 }
@@ -466,6 +476,19 @@ blockquote{
     color: #f0ad4e;
 }
 
+
+.warning .admonition-title:before,
+.caution .admonition-title:before,
+.important .admonition-title:before,
+.attention .admonition-title:before {
+    content: "\f12a";
+    font-family: FontAwesome;
+    color: #f0ad4e;
+    padding-right: 0.5em;
+    font-size: 18px;
+}
+
+
 .error, .danger {
     border-left-color: #d9534f;
 }
@@ -474,3 +497,13 @@ blockquote{
 .danger .admonition-title {
     color: #d9534f;
 }
+
+.error .admonition-title:before,
+.danger .admonition-title:before {
+    content: "\f129";
+    font-family: FontAwesome;
+    color: #d9534f;
+    padding-right: 0.5em;
+    font-size: 18px;
+}
+
