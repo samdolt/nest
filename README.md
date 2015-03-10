@@ -136,6 +136,11 @@ EXTRA_PATH_METADATA = {
 }
 ```
 
+## Font-Awesome Social Icon
+```python
+NEST_SOCIAL_ICON = True
+SOCIAL = (("github", "http://www.github.com/name")) # For fa-github
+```
 
 ## Third-party assets
 
