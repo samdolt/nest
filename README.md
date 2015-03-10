@@ -125,6 +125,8 @@ NEST_TAGS_HEADER_TITLE = u'Tags'
 NEST_TAGS_HEADER_SUBTITLE = u'Tags List'
 NEST_TAGS_CONTENT_TITLE = u'Tags List'
 NEST_TAGS_CONTENT_LIST = u'tagged'
+NEST_JS_ENABLE = False
+
 # Static files
 STATIC_PATHS = ['images', 'extra/robots.txt', 'extra/favicon.ico', 'extra/logo.svg']
 EXTRA_PATH_METADATA = {
