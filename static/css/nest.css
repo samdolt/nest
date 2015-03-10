@@ -417,3 +417,11 @@ blockquote{
 .footer a{
     color: #fff;
 }
+
+/* Social icon */
+
+.social li a i {
+    font-size: 25px;
+}
+
+
