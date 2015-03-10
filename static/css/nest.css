@@ -419,9 +419,37 @@ color: #fff;
 }
 
 /* Social icon */
-
+.social {
+        margin-top: 10px;
+        overflow: auto;
+}
+.social li {
+        list-style-type: none;
+        float: left;
+}
 .social li a i {
-    font-size: 25px;
+        background: #205D7A;
+        color: #fff;
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        font-size: 25px;
+        text-align: center;
+        margin-right: 10px;
+        padding-top: 15%;
+        transition: all 0.2s ease-in-out;
+} 
+
+.social li a i:hover {
+        opacity: .7;
+} 
+
+.social .fa-github {
+    background-color: #316CBA;
+}
+
+.social .fa-rss {
+    background-color: #FF6600;
 }
 
 /* Restrecturedtext admonition */
